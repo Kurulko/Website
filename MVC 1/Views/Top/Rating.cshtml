@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Top";
+}
+@section forHeader {
+    <p>Top</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
+}
+
+@using MVC_1.Models
+@using MVC_1.Models.Abstract
+@model List<IdRating>
+
+<table border="1" cellpadding="2" cellspacing="2" class="notautomargin">
+    <tr>
+        <td>Имя</td>
+        <td>Общий ьалл(ьез никаких коэффициентов)</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        <tr>
+            <td><a asp-controller="Classmates" asp-action="Information" asp-route-id="@item.Id">@item.Name</a></td>
+            <td style="color: @ScoreColor.Color(item.Sum)">@item.Sum</td>
+        </tr>
+    }
+</table>
+
+<style>
+    .main-page {
+        background-image: url(../BackgroundImage/top.png);
+        height: calc(100vh - 28.67px );
+        background-repeat: no-repeat;
+        background-position-x: 600px;
+        background-position-y: 50px;
+    }
+</style>

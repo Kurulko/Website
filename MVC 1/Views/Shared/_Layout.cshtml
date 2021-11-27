@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <main>
+        <a asp-controller="Home" asp-action="Index"  accesskey="0"></a>
+        <a asp-controller="Schedule" asp-action="Subjects" accesskey="1"></a>
+        <a asp-controller="Deadline" asp-action="Subjects" accesskey="2"></a>
+        <a asp-controller="Rating" asp-action="Subjects" accesskey="3"></a>
+        <a asp-controller="Students" asp-action="Index" accesskey="4"></a>
+        <a asp-controller="Top" asp-action="Rating" accesskey="5"></a>
+        <a asp-controller="News" asp-action="News" accesskey="6"></a>
+
+        <header class="header" title="Шапка сайта">
+            <h1><strong><em>Kurulko</em></strong></h1><strong><em>@RenderSection("forHeader", required: false)</em></strong>
+        </header>
+
+        <br />
+
+        <div class="main-page">
+            <div class="twoparts">
+
+
+                <div class="left">
+                    <h4><strong><em>Map</em></strong></h4>
+                    <details>
+                        <strong>
+                            <em>
+                                <a asp-controller="Schedule" asp-action="Subjects"><div class="left-link">Расписание</div></a>
+                                <a asp-controller="Deadline" asp-action="Subjects"><div class="left-subjects">Дедлайны</div></a>
+                                <a asp-controller="Rating" asp-action="Subjects"><div class="left-rating">Оценки</div></a>
+                                <a asp-controller="Students" asp-action="Index"><div class="left-home">Студенты</div></a>
+                                <a asp-controller="Top" asp-action="Rating"><div class="left-top">Рейтинг</div></a>
+                                <a asp-controller="News" asp-action="News"><div class="left-news">Новости</div></a>
+                            </em>
+                        </strong>
+                    </details>
+                </div>
+
+                <div class="foo"></div>
+
+                <div class="right">
+                    <strong><em><p>@RenderBody()</p></em></strong>
+                </div>
+
+                <div class="fixed">
+                    <br />
+                    <div>
+                        <strong><em><div class="fixed-home"><a asp-controller="Home" asp-action="Index">Home</a></div>@RenderSection("previous", required: false)</em></strong>
+                    </div>
+                    <br />
+                    <strong><em>@ForTime.ZnamORChesl()</em></strong>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer" title="подвал">
+        <h4><strong><em>Связь с нами</em></strong></h4>
+        <br />
+        <strong><em>Если будут возникать проблемы,напишите нам на <a href="mailto:yaroslaav.208@gmail.com">почту</a></em></strong>
+    </footer>
+
+    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>*@
+</body>
+</html>

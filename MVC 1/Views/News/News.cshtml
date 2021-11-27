@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "News";
+}
+@section forHeader {
+    <p>News</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
+}
+
+<a asp-controller="ConcreteNews" asp-action="ConcreteNews1">
+    <div class="news1">ОТК</div>
+</a>
+<br />
+
+<a asp-controller="ConcreteNews" asp-action="ConcreteNews2">
+    <div class="news2">2</div>
+</a>
+<br />
+
+<style>
+    .main-page {
+        background-image: url(../BackgroundImage/news.png);
+        height: calc(100vh - 28.67px );
+        background-repeat: repeat;
+    }
+</style>

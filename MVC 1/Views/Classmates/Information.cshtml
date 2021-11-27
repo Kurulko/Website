@@ -1,0 +1,50 @@
+﻿@model MVC_1.Controllers.ClassmatesAndContext
+
+@{
+    ViewData["Title"] = "№ " + Model.Person.Id;
+}
+
+@section forHeader {
+    <p>@Model.Student.LastName @Model.Student.FirstName</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Students" asp-action="Index">Previous</a></div>
+}
+
+<table border="1" cellpadding="2" cellspacing="2" title="Click to someone">
+    <thead>
+        <tr>
+            <td>На бютжете?</td>
+            <td>На степендии?</td>
+            <td>Возраст</td>
+            <td>Псевдоним</td>
+            <td>Почта</td>
+        </tr>
+    </thead>
+    <tr>
+        <td>
+            @if (@Model.Person.OnBudget)
+            {
+                <p>Да</p>
+            }
+            else
+            {
+                <p>Нет</p>
+            }
+        </td>
+        <td>
+            @if (@Model.Person.OnStepa)
+            {
+                <p>Да</p>
+            }
+            else
+            {
+                <p>Нет</p>
+            }
+        </td>
+        <td>@Model.Person.Age</td>
+        <td>@Model.Person.Pseudonym</td>
+        <td><a href="mailto:@Model.Person.Email">@Model.Person.Email</a></td>
+    </tr>
+</table>

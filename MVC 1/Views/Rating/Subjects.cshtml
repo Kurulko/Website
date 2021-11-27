@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Rating";
+}
+@section forHeader {
+    <p>Rating</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
+}
+@using MVC_1.Models.Abstract
+@using MVC_1.Models.Data
+@using MVC_1.Controllers
+
+@model RatingAndLinks
+
+<table border="1" cellpadding="2" cellspacing="2" class="notautomargin">
+    <thead>
+        <tr>
+            <td></td>
+            <td>Матеша</td>
+            <td colspan="3">ОТК</td>
+            <td>Философия</td>
+            <td colspan="2">Комп ьаза</td>
+            <td colspan="3">Метрология</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Cр</td>
+            <td>Дз</td>
+            <td>Кр</td>
+            <td>Лаьы</td>
+            <td>Семинар</td>
+            <td>Кр</td>
+            <td>Лаьы</td>
+            <td>Дз</td>
+            <td>Кр</td>
+            <td>Лаьы</td>
+        </tr>
+
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.ratingSubjects.Count; i++)
+         {
+            <tr>
+                <td><a asp-controller="Classmates" asp-action="Information" asp-route-id="@i">
+                        @Model.db.Students.ToList()[i].LastName @Model.db.Students.ToList()[i].FirstName
+                </a></td>
+                <td>@Model.ratingSubjects[i].HighMath.SR</td>
+                <td>@Model.ratingSubjects[i].OTK.DZ</td>
+                <td>@Model.ratingSubjects[i].OTK.KR</td>
+                <td>@Model.ratingSubjects[i].OTK.Laba</td>
+                <td>@Model.ratingSubjects[i].Philosophy.Seminar</td>
+                <td>@Model.ratingSubjects[i].KompBaza.KR</td>
+                <td>@Model.ratingSubjects[i].KompBaza.Laba</td>
+                <td>@Model.ratingSubjects[i].Metrologia.DZ</td>
+                <td>@Model.ratingSubjects[i].Metrologia.KR</td>
+                <td>@Model.ratingSubjects[i].Metrologia.Laba</td>
+            </tr>
+         }
+    </tbody>
+</table>
+
+<style>
+    .main-page {
+        background-image: url(../BackgroundImage/rating.png);
+        height: calc(100vh - 28.67px );
+        background-repeat: no-repeat;
+        background-position-y: 150px;
+    }
+</style>

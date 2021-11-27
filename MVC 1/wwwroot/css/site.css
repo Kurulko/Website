@@ -1,0 +1,112 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202224;
+    color: white;
+    text-align: center;
+}
+.main-page {
+    background-image: url(../BackgroundImage/home.png);
+    background-position-x: 100px;
+    background-repeat: no-repeat;
+    height: calc(100vh - 28.67px);
+}
+.header, .footer {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+table {
+    margin: auto;
+    border:7px /*ridge*/groove blue;
+}
+
+.notautomargin {
+    margin: unset
+}
+
+main {
+    min-height: calc(100vh - 28.67px);
+}
+
+.twoparts {
+    display: flex;
+}
+
+.left, .right, .fixed, .foo {
+    height: 100%;
+    margin: 0;
+    border-radius: 30px;
+}
+
+.fixed {
+    position: fixed;
+    width: 25%;
+    height: 100px;
+    background-color: darkslategrey;
+    /*    right: 10px;*/
+    top: 1px;
+    left: 1px;
+}
+
+.left {
+    top: 300px;
+    width: 20%;
+    background-color: darkslategrey;
+    border-radius: 10px;
+}
+
+.foo {
+    width: 10%;
+}
+
+.right {
+    width: 70%;
+}
+
+.right-home, .right-link, .right-created, .right-subjects, .right-rating, .right-top, .right-answer, .right-news {
+    height: 40px;
+    background-color: dimgray /*#708090*/;
+    border-radius: 15px;
+    width: 40%;
+}
+
+.fixed-home, .fixed-previous {
+    height: 25px;
+    margin: 0;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: black;
+    width: 40%;
+}
+
+a {
+    color: #00FFFF;
+}
+
+a:hover {
+    color: white;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.warning {
+    color: yellow;
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 50px;
+}
+
+.news1, .news2, .news3 {
+    height: 40px;
+    background-color: dimgray /*#708090*/;
+    border-radius: 8px;
+    width: 40%;
+}
