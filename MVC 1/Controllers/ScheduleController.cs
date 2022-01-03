@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 using MVC_1.Models.Data.Schedule;
 using MVC_1.Models.Abstract.Schedule;
 using MVC_1.Models.Database;
+using MVC_1.Models.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_1.Controllers
 {
+    [Authorize]
     public class ScheduleController : Controller
     {
         IBTSMContext db;
@@ -27,15 +30,5 @@ namespace MVC_1.Controllers
             Links.Add("", db.Links.ToList()[8]);
         }
         public IActionResult Subjects() => View(new ContextAndLinks(Links,db));
-    }
-    public class ContextAndLinks
-    {
-        public Dictionary<string, Place> Links { get; set; }
-        public IBTSMContext db { get; set; }
-        public ContextAndLinks(Dictionary<string, Place> Links, IBTSMContext db)
-        {
-            this.Links = Links;
-            this.db = db;
-        }
     }
 }

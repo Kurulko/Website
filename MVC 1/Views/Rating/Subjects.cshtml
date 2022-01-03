@@ -12,9 +12,13 @@
 @using MVC_1.Models.Data
 @using MVC_1.Controllers
 
-@model RatingAndLinks
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
 
-<table border="1" cellpadding="2" cellspacing="2" class="notautomargin">
+@model StudentsAndPage
+
+<table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
     <thead>
         <tr>
             <td></td>
@@ -40,27 +44,61 @@
 
     </thead>
     <tbody>
-        @for (int i = 0; i < Model.ratingSubjects.Count; i++)
-         {
+        @foreach (Student item in Model.Students)
+        {
             <tr>
-                <td><a asp-controller="Classmates" asp-action="Information" asp-route-id="@i">
-                        @Model.db.Students.ToList()[i].LastName @Model.db.Students.ToList()[i].FirstName
-                </a></td>
-                <td>@Model.ratingSubjects[i].HighMath.SR</td>
-                <td>@Model.ratingSubjects[i].OTK.DZ</td>
-                <td>@Model.ratingSubjects[i].OTK.KR</td>
-                <td>@Model.ratingSubjects[i].OTK.Laba</td>
-                <td>@Model.ratingSubjects[i].Philosophy.Seminar</td>
-                <td>@Model.ratingSubjects[i].KompBaza.KR</td>
-                <td>@Model.ratingSubjects[i].KompBaza.Laba</td>
-                <td>@Model.ratingSubjects[i].Metrologia.DZ</td>
-                <td>@Model.ratingSubjects[i].Metrologia.KR</td>
-                <td>@Model.ratingSubjects[i].Metrologia.Laba</td>
+                <td>
+                    <a asp-controller="Classmates" asp-action="Information" asp-route-id="@(item.Id)">
+                        @if (role == "guest")
+                        {
+                            @item.LastName[0] @:. @item.FirstName
+                        }
+                        else
+                        {
+                            @item.LastName @:  @item.FirstName
+                        }
+                    </a>
+                </td>
+                <td>@item.HighMath.SR</td>
+                <td>@item.OTK.DZ</td>
+                <td>@item.OTK.KR</td>
+                <td>@item.OTK.Laba</td>
+                <td>@item.Philosophy.Seminar</td>
+                <td>@item.KompBaza.KR</td>
+                <td>@item.KompBaza.Laba</td>
+                <td>@item.Metrologia.DZ</td>
+                <td>@item.Metrologia.KR</td>
+                <td>@item.Metrologia.Laba</td>
+                @if (role == "mainAdmin")
+                { 
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+                    </td>
+                }
+                @if (role == "admin" || role == "mainAdmin")
+                { 
+                    <td>
+                        <a asp-action="Update" asp-route-id="@item.Id">Изменить</a>
+                    </td>
+                }
             </tr>
-         }
+        }
+
     </tbody>
 </table>
+<ul class="pagination">
+    @for (int i = 1; i < Model.Page.PageNumber; i++)
+    {
+        <li class="btn btn-outline-primary"><a asp-route-page="@i">@i</a></li>
+    }
 
+    <li class="btn btn-outline-dark"><a>@Model.Page.PageNumber</a></li>
+
+    @for (int i = Model.Page.PageNumber + 1; i <= Model.Page.TotalPage; i++)
+    {
+        <li class="btn btn-outline-info"><a asp-route-page="@i">@i</a></li>
+    }
+</ul>
 <style>
     .main-page {
         background-image: url(../BackgroundImage/rating.png);
@@ -68,4 +106,8 @@
         background-repeat: no-repeat;
         background-position-y: 150px;
     }
+    th, td {
+        padding: 2px;
+    }
+
 </style>

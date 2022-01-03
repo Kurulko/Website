@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@section forHeader {
+    <p>News</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="News" asp-action="News">Previous</a></div>
+}
+@model News
+
+<form method="post" class="form-group">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <p class="col-md-6 mb-3">
+        <label asp-for="NameArticle"></label>
+        <input asp-for="NameArticle" class="form-control" />
+        <span asp-validation-for="NameArticle"></span>
+        <label asp-for="Message"></label>
+        <input asp-for="Message" class="form-control" />
+        <span asp-validation-for="Message"></span>
+        <br /><input type="submit" value="Create" class="btn btn-outline-primary" />
+    </p>
+</form>
+
+<style>
+    .main-page {
+        background-position-x: 600px;
+    }
+</style>

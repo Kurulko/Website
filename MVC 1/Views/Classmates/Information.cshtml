@@ -1,18 +1,31 @@
-﻿@model MVC_1.Controllers.ClassmatesAndContext
+﻿@model Student
+@*ClassmatesAndContext*@
 
 @{
     ViewData["Title"] = "№ " + Model.Person.Id;
 }
 
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
+
 @section forHeader {
-    <p>@Model.Student.LastName @Model.Student.FirstName</p>
+    @if (role != "guest")
+    {
+        <p>@Model.LastName   @Model.FirstName</p>
+    }
+    else
+    {
+        <p>@Model.LastName[0] .  @Model.FirstName</p>
+    }
 }
 
 @section previous {
     <div class="fixed-previous"><a asp-controller="Students" asp-action="Index">Previous</a></div>
 }
 
-<table border="1" cellpadding="2" cellspacing="2" title="Click to someone">
+
+<table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
     <thead>
         <tr>
             <td>На бютжете?</td>
@@ -45,6 +58,31 @@
         </td>
         <td>@Model.Person.Age</td>
         <td>@Model.Person.Pseudonym</td>
-        <td><a href="mailto:@Model.Person.Email">@Model.Person.Email</a></td>
+        @if (role != "guest")
+        {
+            <td><a href="mailto:@Model.Person.Email">@Model.Person.Email</a></td>
+        }
+        else
+        {
+            <td>Информация скрыта</td>
+        }
+        @if (role == "mainAdmin")
+        {
+            <td>
+                <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+            </td>
+        }
+        @if (role == "admin" || role == "mainAdmin")
+        {
+            <td>
+                <a asp-action="Update" asp-route-id="@Model.Id">Update</a>
+            </td>
+        }
     </tr>
 </table>
+
+<style>
+    th, td {
+        padding: 2px;
+    }
+</style>

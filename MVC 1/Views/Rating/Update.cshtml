@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Update";
+}
+@section forHeader {
+    <p>Update</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Rating" asp-action="Subjects">Previous</a></div>
+}
+@model Student
+<form method="post" class="form-group">
+    <p class="col-md-6 mb-3">
+        Матеша:<br /><br />
+        <label asp-for="HighMath.SR"></label><br />
+        <input asp-for="HighMath.SR" class="form-control" />
+        <input type="hidden" asp-for="HighMath.Id" value="@Model.HighMath.Id"/>
+        <br />Философия:<br /><br />
+        <label asp-for="Philosophy.Seminar"></label><br />
+        <input asp-for="Philosophy.Seminar" class="form-control" />
+        <input type="hidden" asp-for="Philosophy.Id" value="@Model.Philosophy.Id"/>
+        <br />Комп ьаза:<br /><br />
+        <label asp-for="KompBaza.KR"></label><br />
+        <input asp-for="KompBaza.KR" class="form-control" />
+        <label asp-for="KompBaza.Laba"></label><br />
+        <input asp-for="KompBaza.Laba" class="form-control" />
+        <input type="hidden" asp-for="KompBaza.Id" value="@Model.KompBaza.Id"/>
+        <br />ОТК:<br /><br />
+        <label asp-for="OTK.DZ"></label><br />
+        <input asp-for="OTK.DZ" class="form-control" />
+        <label asp-for="OTK.KR"></label><br />
+        <input asp-for="OTK.KR" class="form-control" />
+        <label asp-for="OTK.Laba"></label><br />
+        <input asp-for="OTK.Laba" class="form-control" />
+        <input type="hidden" asp-for="OTK.Id" value="@Model.OTK.Id"/>
+        <br />Метрология:<br /><br />
+        <label asp-for="Metrologia.DZ"></label><br />
+        <input asp-for="Metrologia.DZ" class="form-control" />
+        <label asp-for="Metrologia.KR"></label><br />
+        <input asp-for="Metrologia.KR" class="form-control" />
+        <label asp-for="Metrologia.Laba"></label><br />
+        <input asp-for="Metrologia.Laba" class="form-control" />
+        <input type="hidden" asp-for="Metrologia.Id" value="@Model.Metrologia.Id"/><br />
+
+        <input type="submit" value="Save changes" class="btn btn-outline-primary" />
+    </p>
+</form>
+
+
+<style>
+    .main-page {
+        height: 100%;
+        min-height: 500px;
+        background-position-x: 600px;
+    }
+</style>

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Roles";
+}
+@section forHeader {
+    <p>Roles</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Roles" asp-action="Index">Previous</a></div>
+}
+
+@model List<User>
+
+<p class="btn btn-outline-info" style="width:120px"><a asp-action="Create">Create</a></p>
+<br />
+
+<table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
+    <tr>
+        <td>Id</td>
+        <td>Email</td>
+        <td>Password</td>
+        <td>Email</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Email</td>
+            <td>@item.Password</td>
+            <td>@item.Role.Name</td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Update" asp-route-id="@item.Id">Update</a>
+            </td>
+        </tr>
+    }
+</table>
+
+<style>
+    th, td {
+        padding: 2px;
+    }
+</style>

@@ -9,28 +9,35 @@
     <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
 }
 
-@model List<MVC_1.Models.Abstract.Student>
-Different information about silly students
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
 
-<table border="1" cellpadding="2" cellspacing="2" @*class="notautomargin"*@>
-    <thead>
-        <tr>
-            <td>Id</td>
-            <td>Фамилия</td>
-            <td>Имя</td>
-        </tr>
-    </thead>
-    @for (int i = 0; i < Model.Count; ++i)
-    {
-        <tr>
-            <td>@Model[i].Id</td>
-            <td><a asp-controller="Classmates" asp-action="Information" asp-route-id="@i">@Model[i].LastName</a></td>
-            <td>@Model[i].FirstName</td>
-        </tr>
-    }
-</table>
-<br />
-<br />
+
+@model List<MVC_1.Models.Abstract.Student>
+<form method="post" asp-action="Information" asp-controller="Classmates">
+    <p>
+        <select name="id" class="selectpicker" data-width="250px">
+            <option value="" disabled selected>Выберите студента</option>
+            @foreach (var item in Model)
+            {
+        <option value="@(item.Id)">
+            @if (role == "guest")
+            {
+                @item.LastName[0] @:. @item.FirstName
+            }
+            else
+            {
+                @item.LastName @:  @item.FirstName
+            }
+        </option>
+            }
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Look at" class="btn btn-outline-primary" />
+    </p>
+</form>
 
 <style>
     .main-page {

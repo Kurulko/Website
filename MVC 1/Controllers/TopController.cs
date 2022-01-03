@@ -6,40 +6,74 @@ using System.Threading.Tasks;
 using MVC_1.Models;
 using MVC_1.Models.Database;
 using MVC_1.Models.Abstract;
+using MVC_1.Sort;
+using MVC_1.Models.ViewModel;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_1.Controllers
 {
+    [Authorize]
     public class TopController : Controller
     {
         IBTSMContext db;
-        List<RatingSubject> ratingSubjects = new List<RatingSubject>();
-
         public TopController(IBTSMContext context)
         {
             db = context;
-            for (int i = 0; i < db.HighMathScores.ToList().Count; i++)
-            {
-                ratingSubjects.Add(
-                    new RatingSubject()
-                    {
-                        HighMath = db.HighMathScores.ToList()[i],
-                        Philosophy = db.PhilosophyScores.ToList()[i],
-                        KompBaza = db.KompBazaScores.ToList()[i],
-                        Metrologia = db.MetrologiaScores.ToList()[i],
-                        OTK = db.OTKScores.ToList()[i]
-                    });
-            }
         }
-        public IActionResult Rating()
-        {
-            //List<IdRating> ratings = WhoTheBestRating.GetRating(ratingSubjects, db);
-            //foreach (var item in ratings)
-            //{
-            //    db.Ratings.Add(item);
-            //    db.SaveChanges();
-            //}
 
-            return View(db.Ratings.ToList());
+        [HttpGet]
+        public IActionResult Rating(IEnumerable<IdRating> ratings, string name, SortIdRating sort = SortIdRating.ResultDesc)
+        {
+            if (ratings == null || ratings.Count() == 0)
+                ratings = WhoTheBestRating.GetRating(
+                    db.Students
+                    .Include(s => s.Person)
+                    .Include(s => s.HighMath)
+                    .Include(s => s.KompBaza)
+                    .Include(s => s.Metrologia)
+                    .Include(s => s.OTK)
+                    .Include(s => s.Philosophy)
+                    .ToList());
+
+            if (name != null)
+                ratings = ratings.Where(a => a.Name.Contains(name)).ToList();
+
+            ViewData["SortName"] = sort == SortIdRating.NameAsc ? SortIdRating.NameDesc : SortIdRating.NameAsc;
+            ViewData["SortResult"] = sort == SortIdRating.ResultAsc ? SortIdRating.ResultDesc : SortIdRating.ResultAsc;
+
+            ratings = sort switch
+            {
+                SortIdRating.NameAsc => ratings.OrderBy(n => n.Name).ToList(),
+                SortIdRating.NameDesc => ratings.OrderByDescending(n => n.Name).ToList(),
+                SortIdRating.ResultAsc => ratings.OrderBy(n => n.Sum).ToList(),
+                SortIdRating.ResultDesc => ratings.OrderByDescending(n => n.Sum).ToList(),
+                _ => (List<IdRating>)ratings.OrderByDescending(n => n.Sum).ToList()
+            };
+            RatingsAndSelected ratingsAndSelected = new RatingsAndSelected()
+            {
+                Ratings = ratings,
+                Selected = new Selected() { Name = name, SortIdRating = sort }
+            };
+            return View(ratingsAndSelected);
         }
+        //public IActionResult Search(int? id)
+        //{
+        //    if(id != null)
+        //    {
+        //        IdRating forRating = db.Ratings.Find(id);
+
+        //        if(forRating != null) 
+        //        {
+        //            int? index = db.Students.FirstOrDefault(p =>
+        //                p.LastName + " " + p.FirstName == forRating.Name)
+        //                .Id;
+
+        //            if (index != null)
+        //                return RedirectToAction("Information","Classmates",new { id = index });
+        //        }
+        //    }
+        //    return RedirectToAction("Rating");
+        //}
     }
 }

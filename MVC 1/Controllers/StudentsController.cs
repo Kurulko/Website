@@ -8,9 +8,11 @@ using MVC_1.Models.Data;
 using MVC_1.Models.Database;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC_1.Controllers
 {
+    [Authorize]
     public class StudentsController : Controller
     {
         IBTSMContext db;

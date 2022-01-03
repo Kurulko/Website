@@ -5,15 +5,19 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
 </head>
 <body>
     <main>
-        <a asp-controller="Home" asp-action="Index"  accesskey="0"></a>
+        @using MVC_1
+        @using MVC_1.Models.Abstract
+
+        <a asp-controller="Home" asp-action="Index" accesskey="0"></a>
         <a asp-controller="Schedule" asp-action="Subjects" accesskey="1"></a>
         <a asp-controller="Deadline" asp-action="Subjects" accesskey="2"></a>
         <a asp-controller="Rating" asp-action="Subjects" accesskey="3"></a>
         <a asp-controller="Students" asp-action="Index" accesskey="4"></a>
-        <a asp-controller="Top" asp-action="Rating" accesskey="5"></a>
+        <a asp-controller="Top" asp-action="Rating" asp-route-ratings="@(new  List<IdRating>())" accesskey="5"></a>
         <a asp-controller="News" asp-action="News" accesskey="6"></a>
 
         <header class="header" title="Шапка сайта">
@@ -24,8 +28,6 @@
 
         <div class="main-page">
             <div class="twoparts">
-
-
                 <div class="left">
                     <h4><strong><em>Map</em></strong></h4>
                     <details>
@@ -35,7 +37,7 @@
                                 <a asp-controller="Deadline" asp-action="Subjects"><div class="left-subjects">Дедлайны</div></a>
                                 <a asp-controller="Rating" asp-action="Subjects"><div class="left-rating">Оценки</div></a>
                                 <a asp-controller="Students" asp-action="Index"><div class="left-home">Студенты</div></a>
-                                <a asp-controller="Top" asp-action="Rating"><div class="left-top">Рейтинг</div></a>
+                                <a asp-controller="Top" asp-action="Rating" asp-route-ratings="@(new  List<IdRating>())"><div class="left-top">Рейтинг</div></a>
                                 <a asp-controller="News" asp-action="News"><div class="left-news">Новости</div></a>
                             </em>
                         </strong>
@@ -54,7 +56,7 @@
                         <strong><em><div class="fixed-home"><a asp-controller="Home" asp-action="Index">Home</a></div>@RenderSection("previous", required: false)</em></strong>
                     </div>
                     <br />
-                    <strong><em>@ForTime.ZnamORChesl()</em></strong>
+                    <strong><em>@*@ForTime.ZnamORChesl()*@Hi!</em></strong>
                 </div>
 
             </div>
@@ -66,8 +68,10 @@
         <strong><em>Если будут возникать проблемы,напишите нам на <a href="mailto:yaroslaav.208@gmail.com">почту</a></em></strong>
     </footer>
 
-    @*<script src="~/lib/jquery/dist/jquery.min.js"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="~/js/site.js" asp-append-version="true"></script>*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
 </body>
 </html>

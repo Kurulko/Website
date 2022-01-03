@@ -9,20 +9,67 @@
     <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
 }
 
-<a asp-controller="ConcreteNews" asp-action="ConcreteNews1">
-    <div class="news1">ОТК</div>
-</a>
-<br />
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
 
-<a asp-controller="ConcreteNews" asp-action="ConcreteNews2">
-    <div class="news2">2</div>
-</a>
-<br />
+@model NewsAndPage
+@if (role == "admin" || role == "mainAdmin") 
+{ 
+    <p class="btn btn-outline-info" style="width:120px"><a asp-action="Create">Create</a></p>
+    <br />
+}
+@foreach (var item in Model.News)
+{
+    <div style="display: flex;">
+        <p class="btn btn-outline-info" style="width:120px">
+            <a asp-action="ConcreteNews" asp-route-id="@item.Id">@item.NameArticle</a>
+        </p>
+        @if (role == "mainAdmin")
+         {
+            <p class="btn btn-outline-info" style="width:80px">
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </p>
+         }
+        @if (role == "admin" || role == "mainAdmin")
+         {
+            <p class="btn btn-outline-info" style="width:80px">
+                    <a asp-action="Update" asp-route-id="@item.Id">Update</a>
+            </p>
+         }
+    </div> 
+}
+<ul class="pagination">
+    @if (Model.Page.IsPreviousPage)
+    {
+        int previousPage = Model.Page.PageNumber - 1;
+        <li class="btn btn-outline-primary"><a asp-route-page="@previousPage">Back</a></li>
+    }
+    @if (Model.Page.IsNextPage)
+    {
+        int nextPage = Model.Page.PageNumber + 1;
+        <li class="btn btn-outline-primary"><a asp-route-page="@nextPage">Next</a></li>
+    }
+</ul>
+<ul class="pagination">
+    @for (int i = 1; i < Model.Page.PageNumber; i++)
+    {
+        <li class="btn btn-outline-primary"><a asp-route-page="@i">@i</a></li>
+    }
+
+    <li class="btn btn-outline-dark"><a>@Model.Page.PageNumber</a></li>
+
+    @for (int i = Model.Page.PageNumber + 1; i <= Model.Page.TotalPage; i++)
+    {
+        <li class="btn btn-outline-info"><a asp-route-page="@i">@i</a></li>
+    }
+</ul>
 
 <style>
     .main-page {
         background-image: url(../BackgroundImage/news.png);
-        height: calc(100vh - 28.67px );
+        min-height: calc(100vh - 28.67px );
+        height: 100%;
         background-repeat: repeat;
     }
 </style>

@@ -1,0 +1,87 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "Update";
+}
+
+@section forHeader {
+    <p>Inforamtion</p>
+}
+
+@section previous {
+    <div class="fixed-previous">
+        <a asp-controller="Classmates" asp-action="Information" asproute-id="@Model.Id">
+            Previous
+        </a>
+    </div>
+}
+
+<form method="post" class="form-group">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <p class="col-md-6 mb-3">
+
+        <br /><label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName"></span>
+
+        <br /><label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName"></span>
+        <input type="hidden" asp-for="Id" value="@Model.Id" />
+
+        <br /><label asp-for="Person.OnBudget"></label>
+        <input asp-for="Person.OnBudget" class="form-control" />
+        <span asp-validation-for="Person.OnBudget"></span>
+
+        <br /><label asp-for="Person.OnStepa"></label>
+        <input asp-for="Person.OnStepa" class="form-control" />
+        <span asp-validation-for="Person.OnStepa"></span>
+
+        <br /><label asp-for="Person.Pseudonym"></label>
+        <input asp-for="Person.Pseudonym" class="form-control" />
+        <span asp-validation-for="Person.Pseudonym"></span>
+
+        <br /><label asp-for="Person.Email"></label>
+        <input asp-for="Person.Email" class="form-control" />
+        <span asp-validation-for="Person.Email"></span>
+
+        <br /><label asp-for="Person.Age"></label>
+        <input asp-for="Person.Age" class="form-control" />
+        <span asp-validation-for="Person.Age"></span>
+        <input type="hidden" asp-for="Person.Id" value="@Model.Person.Id" />
+
+
+        <input type="hidden" asp-for="HighMath.Id" value="@Model.HighMath.Id" />
+        <input type="hidden" asp-for="KompBaza.Id" value="@Model.KompBaza.Id" />
+        <input type="hidden" asp-for="Metrologia.Id" value="@Model.Metrologia.Id" />
+        <input type="hidden" asp-for="OTK.Id" value="@Model.OTK.Id" />
+        <input type="hidden" asp-for="Philosophy.Id" value="@Model.Philosophy.Id" />
+
+
+        <input type="hidden" asp-for="HighMath.SR" value="@Model.HighMath.SR" />
+
+        <input type="hidden" asp-for="KompBaza.KR" value="@Model.KompBaza.KR" />
+        <input type="hidden" asp-for="KompBaza.Laba" value="@Model.KompBaza.Laba" />
+
+        <input type="hidden" asp-for="Metrologia.Laba" value="@Model.Metrologia.Laba" />
+        <input type="hidden" asp-for="Metrologia.KR" value="@Model.Metrologia.KR" />
+        <input type="hidden" asp-for="Metrologia.DZ" value="@Model.Metrologia.DZ" />
+
+        <input type="hidden" asp-for="OTK.Laba" value="@Model.OTK.Laba" />
+        <input type="hidden" asp-for="OTK.KR" value="@Model.OTK.KR" />
+        <input type="hidden" asp-for="OTK.DZ" value="@Model.OTK.DZ" />
+
+        <input type="hidden" asp-for="Philosophy.Seminar" value="@Model.Philosophy.Seminar" />
+
+        <input type="submit" value="Save changes" class="btn btn-outline-primary" />
+    </p>
+</form>
+
+<style>
+    .main-page {
+        height: 100%;
+        min-height: 500px;
+        background-position-x: 600px;
+    }
+</style>
+

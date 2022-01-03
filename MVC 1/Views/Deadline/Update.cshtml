@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@section forHeader {
+    <p>Create</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Deadline" asp-action="Subjects">Previous</a></div>
+}
+
+@model DeadLine
+
+<form method="post" class="form-group">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <p class="col-md-6 mb-3">
+        <label asp-for="NameSubject"></label>
+        <input asp-for="NameSubject" class="form-control"/>
+        <span asp-validation-for="NameSubject"></span>
+
+        <label asp-for="Homework.LastTime"></label>
+        <input asp-for="Homework.LastTime" class="form-control"/>
+        <span asp-validation-for="Homework.LastTime"></span>
+
+        <label asp-for="Homework.Task"></label>
+        <input asp-for="Homework.Task" class="form-control"/>
+        <span asp-validation-for="Homework.Task"></span>
+
+        <label asp-for="Homework.Link"></label>
+        <input asp-for="Homework.Link" class="form-control"/>
+        <span asp-validation-for="Homework.Link"></span>
+
+        <input type="submit" value="Save changes"  class="btn btn-outline-primary"/>
+    </p>
+</form>
+
+<style>
+    .main-page {
+        background-position-x: 600px;
+    }
+</style>

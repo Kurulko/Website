@@ -9,20 +9,38 @@
     <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
 }
 
-@using MVC_1.Models
-@using MVC_1.Models.Abstract
-@model List<IdRating>
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
 
-<table border="1" cellpadding="2" cellspacing="2" class="notautomargin">
+@model RatingsAndSelected
+
+<form method="get" class="form-group">
+    <p class="col-md-6 mb-3">
+        <label>Поиск по имени</label>
+        <input name="name" type="text" class="form-control" placeholder="Name" />
+        <input type="hidden" value="@Model.Selected.SortIdRating" name="sort" />
+        <input type="hidden" value="@null" name="ratings" />
+        <input type="submit" value="Применить" class="btn btn-outline-primary" />
+    </p>
+</form>
+<table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
     <tr>
-        <td>Имя</td>
-        <td>Общий ьалл(ьез никаких коэффициентов)</td>
+        <td><a asp-controller="Top" asp-action="Rating" asp-route-name="@Model.Selected.Name" asp-route-ratings="@Model.Ratings" asp-route-sort="@ViewBag.SortName">Имя</a></td>
+        <td><a asp-controller="Top" asp-action="Rating" asp-route-name="@Model.Selected.Name" asp-route-ratings="@Model.Ratings" asp-route-sort="@ViewBag.SortResult">Общий балл</a></td>
     </tr>
-    @foreach (var item in Model)
+    @foreach (var item in Model.Ratings)
     {
 
         <tr>
-            <td><a asp-controller="Classmates" asp-action="Information" asp-route-id="@item.Id">@item.Name</a></td>
+            <td>
+                @if (role == "guest") { 
+                    <a asp-controller="Classmates" asp-action="Information" asp-route-id="@item.Id">@ForGuests.Name(item.Name)</a>
+                }
+                else { 
+                    <a asp-controller="Classmates" asp-action="Information" asp-route-id="@item.Id">@item.Name</a>
+                }
+            </td>
             <td style="color: @ScoreColor.Color(item.Sum)">@item.Sum</td>
         </tr>
     }
@@ -31,9 +49,12 @@
 <style>
     .main-page {
         background-image: url(../BackgroundImage/top.png);
-        height: calc(100vh - 28.67px );
+        height: 100%;
+        min-height: 500px;
         background-repeat: no-repeat;
-        background-position-x: 600px;
-        background-position-y: 50px;
+        background-position-x: /*600*/ 10px;
+        background-position-y: 150px;
     }
 </style>
+
+

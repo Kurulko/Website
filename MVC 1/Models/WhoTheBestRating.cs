@@ -21,11 +21,11 @@ namespace MVC_1.Models
             foreach (var item in collectionOfBytes)
                 sum += item;
         }
-        public static List<IdRating> GetRating(List<RatingSubject> ratingSubjects,IBTSMContext db)
+        public static IEnumerable<IdRating> GetRating(List<Student> students)
         {
             List<int> sums = new List<int>();
 
-            foreach (var item in ratingSubjects)
+            foreach (var item in students)
             {
                 int sum = 0;
 
@@ -48,15 +48,14 @@ namespace MVC_1.Models
             for (int i = 0; i < sums.Count; i++)
                 ratings.Add(new IdRating()
                 {
-                    //Id = db.Students.ToList()[i].Id,
-                    Name = db.Students.ToList()[i].LastName + " " + db.Students.ToList()[i].FirstName,
-                    Sum = sums[i]
+                    Name = students[i].LastName + " " + students[i].FirstName,
+                    Sum = sums[i],
+                    Id = i + 1
                 }); 
 
             ratings.Sort((IdRating sum1, IdRating sum2) => sum2.Sum.CompareTo(sum1.Sum));
 
-
-            return /*db.Ratings.ToList()*/ratings;
+            return ratings;
         }
     }
 }

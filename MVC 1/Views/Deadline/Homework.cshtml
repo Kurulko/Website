@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Homework";
+}
+@section forHeader {
+    <p>Homework</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Deadline" asp-action="Subjects">Previous</a></div>
+}
+@model Homework
+
+<h2>До @Model.LastTime</h2>
+<br />
+<a href="@Model.Link">Доп ссылка</a>
+<br />
+<p>@Model.Task</p>

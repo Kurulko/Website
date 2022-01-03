@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Create";
+}
+@section forHeader {
+    <p>Create</p>
+}
+
+@section previous {
+    <div class="fixed-previous"><a asp-controller="Roles" asp-action="Index">Previous</a></div>
+}
+@model UserAndListRoles
+
+<form method="post" class="form-group">
+    <div asp-validation-summary="ModelOnly" class="validation"></div>
+    <p class="col-md-6 mb-3">
+        <label asp-for="User.Email"></label>
+        <input asp-for="User.Email" class="form-control" />
+        <span asp-validation-for="User.Email"></span>
+        <label asp-for="User.Password"></label>
+        <input asp-for="User.Password" class="form-control" />
+        <span asp-validation-for="User.Password"></span>
+        @*<label asp-for="Role.Name"></label>
+        <input asp-for="Role.Name" class="form-control" />
+        <span asp-validation-for="Role.Name"></span>*@
+        <br />
+        <select name="User.Role.Name" class="selectpicker" data-width="330px">
+            <option value="" disabled selected>Role</option>
+            @foreach (Role item in Model.Roles)
+            {
+                <option value="@(item.Name)">
+                    @(item.Name)
+                </option>
+            }
+        </select>
+
+        <br /><input type="submit" value="Create" class="btn btn-outline-primary" />
+    </p>
+</form>
+
+<style>
+    .main-page {
+        background-position-x: 600px;
+    }
+</style>
+

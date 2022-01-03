@@ -9,71 +9,38 @@
     <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
 }
 
-<table border="1" cellpadding="2" cellspacing="2" class="notautomargin">
+@{
+    string role = User.FindFirst(x => x.Type == ClaimsIdentity.DefaultRoleClaimType).Value;
+}
+
+
+@model List<DeadLine>
+
+<table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
     <tr>
-        <td></td>
-        <td>Лаьа</td>
+        <td>Предметы</td>
         <td>Дз</td>
     </tr>
-    <tr>
-        <td>
-            Матеша
-        </td>
-        <td>
-            -
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            ОТК
-        </td>
-        <td>
-        </td>
-        <td>
-            <a href="/FilesDeadline/OTK_DZ_11_11.jpg" download="download">На 11:11</a>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Философия
-        </td>
-        <td>
-            -
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Комп ьаза
-        </td>
-        <td>
-            <a href="/FilesDeadline/KombBaza_Laba_8_11.pdf"  download="download">На 8:11</a>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        </td>
-        <td>
-        </td>
-        <td>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Метрология
-        </td>
-        <td>
-            <a href="https://onedrive.live.com/?authkey=%21AES_naHmtt6eStU&id=876301E0B0FB633C%217198&cid=876301E0B0FB633C">Хз</a>
-        </td>
-        <td>
-        </td>
-    </tr>
 
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>@item.NameSubject</td>
+    <td><a asp-action="Homework" asp-route-id="@item.Id">@item.Homework.LastTime</a></td>
+    @if (role == "mainAdmin")
+     {        
+         <td>
+             <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+         </td>
+     }
+    @if (role == "admin" || role == "mainAdmin")
+     {        
+         <td>
+             <a asp-action="Update" asp-route-id="@item.Id">Update</a>
+         </td>
+     }
+</tr>
+    }
 </table>
 
 <style>
@@ -81,6 +48,10 @@
         background-image: url(../BackgroundImage/deadline.png);
         height: calc(100vh - 28.67px );
         background-repeat: no-repeat;
-        background-position-x: 450px;
+        background-position-x: 100px;
     }
+    th, td {
+        padding: 5px;
+    }
+
 </style>

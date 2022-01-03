@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations.Schema;
+using MVC_1.Models.Abstract;
+using System.ComponentModel.DataAnnotations;
 
 namespace MVC_1.Models.Rating
 {
-    //[NotMapped]
     public class Metrologia
     {
         public int Id { get; set; }
-        public /*List<byte>*/string DZ { get; set; }
-        public /*List<byte>*/string KR { get; set; }
-        public /*List<byte>*/string Laba { get; set; }
+        [Display(Name = "Оценки за дз-шки")]
+        public string DZ { get; set; }
+        [Display(Name = "Оценки за кр-ки")]
+        public string KR { get; set; }
+        [Display(Name = "Оценки за лаьы")]
+        public string Laba { get; set; }
 
+        public Student Student { get; set; }
     }
 }
