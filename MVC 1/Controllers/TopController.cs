@@ -57,23 +57,5 @@ namespace MVC_1.Controllers
             };
             return View(ratingsAndSelected);
         }
-        //public IActionResult Search(int? id)
-        //{
-        //    if(id != null)
-        //    {
-        //        IdRating forRating = db.Ratings.Find(id);
-
-        //        if(forRating != null) 
-        //        {
-        //            int? index = db.Students.FirstOrDefault(p =>
-        //                p.LastName + " " + p.FirstName == forRating.Name)
-        //                .Id;
-
-        //            if (index != null)
-        //                return RedirectToAction("Information","Classmates",new { id = index });
-        //        }
-        //    }
-        //    return RedirectToAction("Rating");
-        //}
     }
 }

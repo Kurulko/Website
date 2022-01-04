@@ -1,0 +1,349 @@
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.AssemblyReference.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfoInputs.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CoreCompileInputs.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.Manifest.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.xml
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\scopedcss\bundle\MVC 1.styles.css
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.input.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.output.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorCoreGenerate.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.exe
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.deps.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.dev.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.Views.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.genruntimeconfig.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CopyComplete
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Information.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\ASP.NET Core MVC 2 practice\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.exe
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.deps.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.dev.json
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.AssemblyReference.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfoInputs.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CoreCompileInputs.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.Manifest.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.xml
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\scopedcss\bundle\MVC 1.styles.css
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.input.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.output.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorCoreGenerate.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Information.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.Views.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CopyComplete
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.dll
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.pdb
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.genruntimeconfig.cache
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Subjects.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Rating\Subjects.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Top\Rating.cshtml.g.cs
+C:\Users\Валик\Desktop\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Schedule\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.AssemblyReference.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.GeneratedMSBuildEditorConfig.editorconfig
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfoInputs.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CoreCompileInputs.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.MvcApplicationPartsAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.Manifest.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.xml
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\scopedcss\bundle\MVC 1.styles.css
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.input.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.output.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorCoreGenerate.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Information.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Rating\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Schedule\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Top\Rating.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\appsettings.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.exe
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.deps.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.dev.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.Views.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CopyComplete
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.genruntimeconfig.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\News.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Rating\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\ConcreteNews.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\Create.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Homework.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Create.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\My site\MVC 1\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\appsettings.Development.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\appsettings.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.exe
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.deps.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.runtimeconfig.dev.json
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\MVC 1.Views.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.AssemblyReference.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.GeneratedMSBuildEditorConfig.editorconfig
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfoInputs.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.AssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CoreCompileInputs.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.MvcApplicationPartsAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.Manifest.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.xml
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\scopedcss\bundle\MVC 1.styles.css
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.input.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.output.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorCoreGenerate.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Information.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Classmates\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Homework.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Deadline\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\ConcreteNews.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\Create.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\News.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\News\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Rating\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Rating\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Create.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Roles\Update.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Schedule\Subjects.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Students\Index.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\Top\Rating.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cache
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorTargetAssemblyInfo.cs
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.Views.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.csproj.CopyComplete
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.dll
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.pdb
+A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.genruntimeconfig.cache
