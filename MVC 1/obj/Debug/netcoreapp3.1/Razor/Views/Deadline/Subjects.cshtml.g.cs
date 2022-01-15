@@ -49,27 +49,34 @@ using MVC_1.Models.Abstract;
 #nullable disable
 #nullable restore
 #line 6 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Deadline;
+using MVC_1.Models.Abstract.Schedule;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Account;
+using MVC_1.Models.Deadline;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
+using MVC_1.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
 using System.Security.Claims;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0ee5888e9ce55a200f1a0f5ad937cb58f20d4762", @"/Views/Deadline/Subjects.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"952ebd51fc95a6a06c1152bde6a83392c4f54666", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a28a449801f1e23f14846430c1570f5bba223ac", @"/Views/_ViewImports.cshtml")]
     public class Views_Deadline_Subjects : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<DeadLine>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -116,7 +123,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             DefineSection("previous", async() => {
                 WriteLiteral("\r\n    <div class=\"fixed-previous\">");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d47626403", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d47626620", async() => {
                     WriteLiteral("Previous");
                 }
                 );
@@ -164,7 +171,7 @@ using System.Security.Claims;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n    <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d47628968", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d47629185", async() => {
 #nullable restore
 #line 29 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Deadline\Subjects.cshtml"
                                                     Write(item.Homework.LastTime);
@@ -210,7 +217,7 @@ using System.Security.Claims;
 #line hidden
 #nullable disable
             WriteLiteral("         <td>\r\n             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d476211660", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d476211877", async() => {
                 WriteLiteral("Delete");
             }
             );
@@ -257,7 +264,7 @@ using System.Security.Claims;
 #line hidden
 #nullable disable
             WriteLiteral("         <td>\r\n             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d476214353", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ee5888e9ce55a200f1a0f5ad937cb58f20d476214570", async() => {
                 WriteLiteral("Update");
             }
             );

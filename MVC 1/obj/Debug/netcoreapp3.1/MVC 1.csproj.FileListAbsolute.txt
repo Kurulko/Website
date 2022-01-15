@@ -311,8 +311,6 @@ A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cache
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorAssemblyInfo.cs
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.Manifest.cache
-A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\staticwebassets\MVC 1.StaticWebAssets.xml
-A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\scopedcss\bundle\MVC 1.styles.css
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.input.cache
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.TagHelpers.output.cache
 A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\obj\Debug\netcoreapp3.1\MVC 1.RazorCoreGenerate.cache

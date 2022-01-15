@@ -49,27 +49,34 @@ using MVC_1.Models.Abstract;
 #nullable disable
 #nullable restore
 #line 6 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Deadline;
+using MVC_1.Models.Abstract.Schedule;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Account;
+using MVC_1.Models.Deadline;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
+using MVC_1.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
 using System.Security.Claims;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f765b506cdbcf6c473f43ca91572925c96cc20a3", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"952ebd51fc95a6a06c1152bde6a83392c4f54666", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a28a449801f1e23f14846430c1570f5bba223ac", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

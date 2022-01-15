@@ -49,27 +49,34 @@ using MVC_1.Models.Abstract;
 #nullable disable
 #nullable restore
 #line 6 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Deadline;
+using MVC_1.Models.Abstract.Schedule;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Account;
+using MVC_1.Models.Deadline;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
+using MVC_1.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
 using System.Security.Claims;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0f1592cc8e596f480b468bf0295efaa7456da5e4", @"/Views/Top/Rating.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"952ebd51fc95a6a06c1152bde6a83392c4f54666", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a28a449801f1e23f14846430c1570f5bba223ac", @"/Views/_ViewImports.cshtml")]
     public class Views_Top_Rating : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<RatingsAndSelected>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -121,7 +128,7 @@ using System.Security.Claims;
             WriteLiteral("\r\n");
             DefineSection("previous", async() => {
                 WriteLiteral("\r\n    <div class=\"fixed-previous\">");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e47594", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e47811", async() => {
                     WriteLiteral("Previous");
                 }
                 );
@@ -152,7 +159,7 @@ using System.Security.Claims;
 #nullable disable
             WriteLiteral("\r\n");
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e49441", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e49658", async() => {
                 WriteLiteral("\r\n    <p class=\"col-md-6 mb-3\">\r\n        <label>Поиск по имени</label>\r\n        <input name=\"name\" type=\"text\" class=\"form-control\" placeholder=\"Name\" />\r\n        <input type=\"hidden\"");
                 BeginWriteAttribute("value", " value=\"", 556, "\"", 592, 1);
 #nullable restore
@@ -191,7 +198,7 @@ WriteAttributeValue("", 646, null, 646, 5, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"2\" class=\"table-hover table-dark\">\r\n    <tr>\r\n        <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e412235", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e412452", async() => {
                 WriteLiteral("Имя");
             }
             );
@@ -246,7 +253,7 @@ WriteAttributeValue("", 646, null, 646, 5, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n        <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e416280", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e416497", async() => {
                 WriteLiteral("Общий балл");
             }
             );
@@ -319,7 +326,7 @@ WriteAttributeValue("", 646, null, 646, 5, false);
 #line hidden
 #nullable disable
             WriteLiteral("                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e420900", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e421117", async() => {
 #nullable restore
 #line 38 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Top\Rating.cshtml"
                                                                                                Write(ForGuests.Name(item.Name));
@@ -367,7 +374,7 @@ WriteAttributeValue("", 646, null, 646, 5, false);
 #line hidden
 #nullable disable
             WriteLiteral("                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e423849", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0f1592cc8e596f480b468bf0295efaa7456da5e424066", async() => {
 #nullable restore
 #line 41 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Top\Rating.cshtml"
                                                                                                Write(item.Name);

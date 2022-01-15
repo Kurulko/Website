@@ -2,133 +2,372 @@
     ViewData["Title"] = "Schedule";
 }
 @section forHeader {
-    <p>Schedule</p>
+<p>Schedule</p>
 }
 
 @section previous {
-    <div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
+<div class="fixed-previous"><a asp-controller="Home" asp-action="Index">Previous</a></div>
 }
+
 @using MVC_1.Models.Data.Schedule
-@using MVC_1.Controllers
-@model ContextAndLinks
+
+@model PlacesAndTime
+
+@functions {
+    Place ReturnPlace(string name)
+    {
+        Place place = Model.NameLinks.FirstOrDefault(nl => nl.Name == name).Place;
+        if (place != null)
+            return place;
+        throw new Exception("Нету такого предмета");
+    }
+
+    Timer ReturnTimer(int id)
+    {
+        Timer timer = Model.Time.FirstOrDefault(t => t.Id == id);
+        if (timer != null)
+            return timer;
+        throw new Exception("Нету такого времени");
+    }
+}
+@{
+    Place place = ReturnPlace("");
+    Timer timer = ReturnTimer(1);
+}
 
 <table border="1" cellpadding="2" cellspacing="2" class="table-hover table-dark">
-    <!--Monday-->
     <tr>
         <td rowspan="4">@DaysOfWeek.Monday</td>
-        <td>@Model.db.Time.ToList()[0].StartHours <sup>@Model.db.Time.ToList()[0].StartMinutes</sup> - @Model.db.Time.ToList()[0].EndHours <sup>@Model.db.Time.ToList()[0].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["metrologia_lection"].Link>@Model.Links["metrologia_lection"].NameTeacher</a><p>@Model.Links["metrologia_lection"].NameSubject</p></td>
+        <td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("metrologia_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("math");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[1].StartHours <sup>@Model.db.Time.ToList()[1].StartMinutes</sup> - @Model.db.Time.ToList()[1].EndHours <sup>@Model.db.Time.ToList()[1].EndMinutes</sup></td>
-        <td><a href=@Model.Links["otk_lection"].Link>@Model.Links["otk_lection"].NameTeacher</a><p>@Model.Links["otk_lection"].NameSubject</p></td>
-        <td><a href=@Model.Links["metrologia_lection"].Link>@Model.Links["metrologia_lection"].NameTeacher</a><p>@Model.Links["metrologia_lection"].NameSubject</p></td>
+        <td>
+            @{
+                timer = ReturnTimer(1);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("math");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[2].StartHours <sup>@Model.db.Time.ToList()[2].StartMinutes</sup> - @Model.db.Time.ToList()[2].EndHours <sup>@Model.db.Time.ToList()[2].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["komb_baza_laba"].Link>@Model.Links["komb_baza_laba"].NameTeacher</a><p>@Model.Links["komb_baza_laba"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td>@Model.db.Time.ToList()[3].StartHours <sup>@Model.db.Time.ToList()[3].StartMinutes</sup> - @Model.db.Time.ToList()[3].EndHours <sup>@Model.db.Time.ToList()[3].EndMinutes</sup></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="4"><br /></td>
-    </tr>
+        <td>
+            @{
+                timer = ReturnTimer(2);
+            }
 
-    <!--Tuesday-->
-    <tr>
-        <td rowspan="5">@DaysOfWeek.Tuesday</td>
-        <td>@Model.db.Time.ToList()[0].StartHours <sup>@Model.db.Time.ToList()[0].StartMinutes</sup> - @Model.db.Time.ToList()[0].EndHours <sup>@Model.db.Time.ToList()[0].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["komb_baza"].Link>@Model.Links["komb_baza"].NameTeacher</a><p>@Model.Links["komb_baza"].NameSubject</p></td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("komb_baza");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[1].StartHours <sup>@Model.db.Time.ToList()[1].StartMinutes</sup> - @Model.db.Time.ToList()[1].EndHours <sup>@Model.db.Time.ToList()[1].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["math"].Link>@Model.Links["math"].NameTeacher</a><p>@Model.Links["math"].NameSubject</p>
+        <td>
+            @{
+                timer = ReturnTimer(3);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("metrologia_laba");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("philosophy");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
-    <tr>
-        <td rowspan="2">@Model.db.Time.ToList()[2].StartHours <sup>@Model.db.Time.ToList()[2].StartMinutes</sup> - @Model.db.Time.ToList()[2].EndHours <sup>@Model.db.Time.ToList()[2].EndMinutes</sup></td>
-        <td><a href=@Model.Links["metrologia_laba"].Link>@Model.Links["metrologia_laba"].NameTeacher</a><p>@Model.Links["metrologia_laba"].NameSubject</p></td>
-        <td><a href=@Model.Links["komb_baza"].Link>@Model.Links["komb_baza"].NameTeacher</a><p>@Model.Links["komb_baza"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td><a href=@Model.Links["komb_baza"].Link>@Model.Links["komb_baza"].NameTeacher</a><p>@Model.Links["komb_baza"].NameSubject</p></td>
-        <td><a href=@Model.Links["metrologia_laba"].Link>@Model.Links["metrologia_laba"].NameTeacher</a><p>@Model.Links["metrologia_laba"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td>@Model.db.Time.ToList()[3].StartHours <sup>@Model.db.Time.ToList()[3].StartMinutes</sup> - @Model.db.Time.ToList()[3].EndHours <sup>@Model.db.Time.ToList()[3].EndMinutes</sup></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="4"><br /></td>
-    </tr>
+    <tr><td colspan=2><br /></td></tr>
 
-    <!--Wednesday-->
+
+    <tr>
+        <td rowspan="4">@DaysOfWeek.Tuesday</td>
+        <td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("philosophy");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(1);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("philosophy");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(2);
+            }
+
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("math");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(3);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("metrologia_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr><td colspan=2><br /></td></tr>
+
+
     <tr>
         <td rowspan="4">@DaysOfWeek.Wednesday</td>
-        <td>@Model.db.Time.ToList()[0].StartHours <sup>@Model.db.Time.ToList()[0].StartMinutes</sup> - @Model.db.Time.ToList()[0].EndHours <sup>@Model.db.Time.ToList()[0].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["komb_baza"].Link>@Model.Links["komb_baza"].NameTeacher</a><p>@Model.Links["komb_baza"].NameSubject</p></td>
+        <td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("otk_seminar");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+        <td>
+            @{
+                place = ReturnPlace("otk_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[1].StartHours <sup>@Model.db.Time.ToList()[1].StartMinutes</sup> - @Model.db.Time.ToList()[1].EndHours <sup>@Model.db.Time.ToList()[1].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["otk_lection"].Link>@Model.Links["otk_lection"].NameTeacher</a><p>@Model.Links["otk_lection"].NameSubject</p></td>
+        <td>
+            @{
+                timer = ReturnTimer(1);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("otk_seminar");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[2].StartHours <sup>@Model.db.Time.ToList()[2].StartMinutes</sup> - @Model.db.Time.ToList()[2].EndHours <sup>@Model.db.Time.ToList()[2].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["otk_seminar"].Link>@Model.Links["otk_seminar"].NameTeacher</a><p>@Model.Links["otk_seminar"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td>@Model.db.Time.ToList()[3].StartHours <sup>@Model.db.Time.ToList()[3].StartMinutes</sup> - @Model.db.Time.ToList()[3].EndHours <sup>@Model.db.Time.ToList()[3].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["otk_lection"].Link>@Model.Links["otk_lection"].NameTeacher</a><p>@Model.Links["otk_lection"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td colspan="4"><br /></td>
-    </tr>
+        <td>
+            @{
+                timer = ReturnTimer(2);
+            }
 
-    <!--Thursday-->
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("otk_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(3);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("komb_baza_laba");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr><td colspan=2><br /></td></tr>
+
+
     <tr>
         <td rowspan="4">@DaysOfWeek.Thursday</td>
-        <td>@Model.db.Time.ToList()[0].StartHours <sup>@Model.db.Time.ToList()[0].StartMinutes</sup> - @Model.db.Time.ToList()[0].EndHours <sup>@Model.db.Time.ToList()[0].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["math"].Link>@Model.Links["math"].NameTeacher</a><p>@Model.Links["math"].NameSubject</p></td>
+        <td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("otk_seminar");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[1].StartHours <sup>@Model.db.Time.ToList()[1].StartMinutes</sup> - @Model.db.Time.ToList()[1].EndHours <sup>@Model.db.Time.ToList()[1].EndMinutes</sup></td>
-        <td><a href=@Model.Links["math"].Link>@Model.Links["math"].NameTeacher</a><p>@Model.Links["math"].NameSubject</p></td>
-        <td><a href=@Model.Links["otk_seminar"].Link>@Model.Links["otk_seminar"].NameTeacher</a><p>@Model.Links["otk_seminar"].NameSubject</p></td>
+        <td>
+            @{
+                timer = ReturnTimer(1);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("philosophy");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[2].StartHours <sup>@Model.db.Time.ToList()[2].StartMinutes</sup> - @Model.db.Time.ToList()[2].EndHours <sup>@Model.db.Time.ToList()[2].EndMinutes</sup></td>
-        <td><a href=@Model.Links["komb_baza"].Link>@Model.Links["komb_baza"].NameTeacher</a><p>@Model.Links["komb_baza"].NameSubject</p></td>
-        <td><a href=@Model.Links["math"].Link>@Model.Links["math"].NameTeacher</a><p>@Model.Links["math"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td>@Model.db.Time.ToList()[3].StartHours <sup>@Model.db.Time.ToList()[3].StartMinutes</sup> - @Model.db.Time.ToList()[3].EndHours <sup>@Model.db.Time.ToList()[3].EndMinutes</sup></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td colspan="4"><br /></td>
-    </tr>
+        <td>
+            @{
+                timer = ReturnTimer(2);
+            }
 
-    <!--Friday-->
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("otk_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(3);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("math");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr><td colspan=2><br /></td></tr>
+
+
     <tr>
         <td rowspan="4">@DaysOfWeek.Friday</td>
-        <td>@Model.db.Time.ToList()[0].StartHours <sup>@Model.db.Time.ToList()[0].StartMinutes</sup> - @Model.db.Time.ToList()[0].EndHours <sup>@Model.db.Time.ToList()[0].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["philosophy"].Link>@Model.Links["philosophy"].NameTeacher</a><p>@Model.Links["philosophy"].NameSubject</p></td>
+        <td>
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("metrologia_laba");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[1].StartHours <sup>@Model.db.Time.ToList()[1].StartMinutes</sup> - @Model.db.Time.ToList()[1].EndHours <sup>@Model.db.Time.ToList()[1].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["philosophy"].Link>@Model.Links["philosophy"].NameTeacher</a><p>@Model.Links["philosophy"].NameSubject</p></td>
+        <td>
+            @{
+                timer = ReturnTimer(1);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("metrologia_lection");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
     </tr>
     <tr>
-        <td>@Model.db.Time.ToList()[2].StartHours <sup>@Model.db.Time.ToList()[2].StartMinutes</sup> - @Model.db.Time.ToList()[2].EndHours <sup>@Model.db.Time.ToList()[2].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["otk_seminar"].Link>@Model.Links["otk_seminar"].NameTeacher</a><p>@Model.Links["otk_seminar"].NameSubject</p></td>
-    </tr>
-    <tr>
-        <td>@Model.db.Time.ToList()[3].StartHours <sup>@Model.db.Time.ToList()[3].StartMinutes</sup> - @Model.db.Time.ToList()[3].EndHours <sup>@Model.db.Time.ToList()[3].EndMinutes</sup></td>
-        <td colspan="2"><a href=@Model.Links["otk_seminar"].Link>@Model.Links["otk_seminar"].NameTeacher</a><p>@Model.Links["otk_seminar"].NameSubject</p></td>
-    </tr>
+        <td>
+            @{
+                timer = ReturnTimer(2);
+            }
 
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("math");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            @{
+                timer = ReturnTimer(3);
+            }
+            @timer.StartHours <sup>@timer.StartMinutes</sup> - @timer.EndHours <sup>@timer.EndMinutes</sup>
+        </td>
+        <td colspan=2>
+            @{
+                place = ReturnPlace("otk_seminar");
+            }
+            <a href=@place.Link>@place.NameTeacher</a>
+            <p>@place.NameSubject</p>
+        </td>
+    </tr>
 </table>
+
+
+
 <br />
 
 <style>
@@ -136,7 +375,7 @@
         background-image: url(../BackgroundImage/schedule.png);
         height: /*calc(100vh - 28.67px )*/ 100%;
         background-repeat: repeat-y;
-        background-position-x: /*800*/150px;
+        background-position-x: /*800*/ 150px;
     }
 
 </style>

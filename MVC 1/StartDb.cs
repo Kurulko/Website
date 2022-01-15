@@ -117,8 +117,27 @@ namespace MVC_1
                 }
             }
 
-            if (!context.Links.Any())
+            if (!context.Places.Any() || !context.NameLinks.Any())
             {
+                NameLink[] nameLinks =
+                {
+                    new NameLink(){Name = "math"},
+                    new NameLink(){Name = "otk_lection"},
+                    new NameLink(){Name = "otk_seminar"},
+                    new NameLink(){Name = "metrologia_lection"},
+                    new NameLink(){Name = "metrologia_laba"},
+                    new NameLink(){Name = "philosophy"},
+                    new NameLink(){Name = "komb_baza"},
+                    new NameLink(){Name = "komb_baza_laba"},
+                    new NameLink(){Name = ""}
+                };
+                foreach (var item in nameLinks)
+                {
+                    context.NameLinks.Add(item);
+                    context.SaveChanges();
+                }
+
+
                 Place[] places = {
                     new Place() { NameTeacher = "Масютка", NameSubject = "Матеша", Link = "https://meet.google.com/yvt-qdvz-yjp?hs=224" },
                     new Place() { NameTeacher = "Фесенко", NameSubject = "ОТК Лекция", Link = "https://us04web.zoom.us/j/7357075849?pwd=c2hJekVaY21yTnpwUldpMUgwYXo2QT09" },
@@ -131,12 +150,16 @@ namespace MVC_1
                     new Place() { NameTeacher = "NoName", NameSubject = "Zero", Link = "https://meet.google.com/jtk-wpws-qvw?hs=224" }
                 };
 
+                int c = 1;
                 foreach (Place place in places)
                 {
-                    context.Links.Add(place);
+                    context.Places.Add(place);
+                    place.NameLinkId = c;
                     context.SaveChanges();
+                    c++;
                 }
             }
+
             if (!context.Time.Any())
             {
                 Timer[] timers = {

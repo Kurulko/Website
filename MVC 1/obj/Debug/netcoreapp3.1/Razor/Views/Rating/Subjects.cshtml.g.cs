@@ -42,20 +42,27 @@ using MVC_1.Models.Database;
 #nullable disable
 #nullable restore
 #line 6 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Deadline;
+using MVC_1.Models.Abstract.Schedule;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
-using MVC_1.Models.Account;
+using MVC_1.Models.Deadline;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
+using MVC_1.Models.Account;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\_ViewImports.cshtml"
 using System.Security.Claims;
 
 #line default
@@ -83,7 +90,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"61532f34821abf9f8e6ccce45a6ac3b939cb80f3", @"/Views/Rating/Subjects.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"952ebd51fc95a6a06c1152bde6a83392c4f54666", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8a28a449801f1e23f14846430c1570f5bba223ac", @"/Views/_ViewImports.cshtml")]
     public class Views_Rating_Subjects : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<StudentsAndPage>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Home", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -131,7 +138,7 @@ using MVC_1.Controllers;
             WriteLiteral("\r\n");
             DefineSection("previous", async() => {
                 WriteLiteral("\r\n    <div class=\"fixed-previous\">");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f37120", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f37337", async() => {
                     WriteLiteral("Previous");
                 }
                 );
@@ -198,7 +205,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("            <tr>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f310002", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f310219", async() => {
                 WriteLiteral("\r\n");
 #nullable restore
 #line 52 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Rating\Subjects.cshtml"
@@ -381,7 +388,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("                    <td>\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f317632", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f317849", async() => {
                 WriteLiteral("Удалить");
             }
             );
@@ -428,7 +435,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("                    <td>\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f320391", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f320608", async() => {
                 WriteLiteral("Изменить");
             }
             );
@@ -484,7 +491,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("        <li class=\"btn btn-outline-primary\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f323461", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f323678", async() => {
 #nullable restore
 #line 92 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Rating\Subjects.cshtml"
                                                               Write(i);
@@ -544,7 +551,7 @@ using MVC_1.Controllers;
 #line hidden
 #nullable disable
             WriteLiteral("        <li class=\"btn btn-outline-info\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f326566", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "61532f34821abf9f8e6ccce45a6ac3b939cb80f326783", async() => {
 #nullable restore
 #line 99 "A:\Study\ASP.NET Core MVC\Study c#\ASP.NET Core практика\Students\MVC 1\Views\Rating\Subjects.cshtml"
                                                            Write(i);

@@ -27,7 +27,8 @@ namespace MVC_1.Models.Database
         public DbSet<KompBaza> KompBazaScores { get; set; }
         public DbSet<Metrologia> MetrologiaScores { get; set; }
         public DbSet<Student> Students { get; set; }
-        public DbSet<Place> Links { get; set; }
+        public DbSet<Place> Places { get; set; }
+        public DbSet<NameLink> NameLinks { get; set; }
         public DbSet<Timer> Time { get; set; }
 
         public IBTSMContext(DbContextOptions<IBTSMContext> options)

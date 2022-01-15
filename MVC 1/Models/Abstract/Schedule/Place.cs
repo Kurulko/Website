@@ -11,5 +11,8 @@ namespace MVC_1.Models.Abstract.Schedule
         public string NameSubject { get; set; }
         public string Link { get; set; }
         public int Id { get; set; }
+
+        public int NameLinkId { get; set; }
+        public NameLink NameLink { get; set; }
     }
 }
